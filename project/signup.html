@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Load the AJAX API-->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <title>Eventus</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Our Code Starts Here -->
+    <div class="container-fluid">
+      <h5 id="signUpIntro"> Register your club with OSE </h5>
+      <hr>
+
+    <form action="/action_page.php" id="formSignup">
+
+     <h5 id="formSignup1"> Club Name <br>
+      <input type="text" name="FirstName" value="" class="name"><br>
+      <br>
+Club President <br>
+  <input type="text" name="FirstName" value="" class="campusCard"><br>
+  <br>
+  What is your club strength? <br>
+  <select>
+  <option value="volvo" class="depression">---</option>
+  <option value="volvo" class="depression">2-5</option>
+  <option value="saab" class="anxiety">6-11</option>
+  <option value="opel" class="stress" >12-25</option>
+</select>
+<br>
+  Clubs Purpose and Motto:<br>
+   <input type="text" name="Problem" class="problem" value=""><br>
+   <br>
+Create password:<br>
+<input type="text" name="LastName" value="" class="password"><br>
+<br>
+Confirm password:<br>
+<input type="text" name="LastName" value="" class="password"><br>
+
+</form>
+</div>
+<p><button id="submitbutton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+Submit
+</button></p>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Success!</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      Your Club's profile is created. <br>
+      Log In for creating an event!
+
+    </div>
+    <div class="modal-footer">
+
+
+
+  <p><a href="loginusername.html" class="button" id="clickMe">Log In</p></a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+    <!-- Our Code Ends Here -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+
+  </body>
+</html>

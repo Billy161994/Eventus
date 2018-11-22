@@ -1,0 +1,1064 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300|Raleway:300,400');
+
+body{
+  background: white;
+}
+
+h6{
+  text-align: center;
+  color: grey;
+  font-size: 14px;
+  font-family: 'Raleway';
+
+}
+
+
+#guest{
+  text-align: center;
+  color: #002b80;
+  text-decoration: underline;
+  font-family: 'Raleway';
+}
+
+#guest1{
+  text-align: center;
+  color: grey;
+  font-family: 'Raleway';
+
+}
+
+
+#guestGreeting{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-family: 'Raleway';
+  font-size: 25px;
+  color: #0055ff;
+  font-weight: normal;
+}
+
+#guestGreeting2{
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Raleway';
+  color: #0055ff;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+
+#login2{
+
+  background-color: #b3ccff;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Amaranth';
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+#loginCall{
+  background-color: #b3ccff;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Amaranth';
+  text-align: center;
+  width: 150px;
+
+}
+
+#submitbutton{
+  background-color: #b3ccff;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  border:none;
+}
+
+
+.loader {
+  border: 8px solid #0055ff;
+  border-radius: 50%;
+  border-top: 8px solid #b3ccff;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin-left: 140px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+.container-fluid{
+  width: 100%;
+}
+
+#brand{
+  font-family: 'Raleway';
+  font-size: 28px;
+  color: black;
+  opacity: .8;
+  margin-top: 20px;
+  height: 20px;
+  margin-bottom: 50px;
+  margin-left: 38px;
+}
+
+.navbar-brand{
+  height: 15px;
+}
+
+
+#notification{
+  border: 1px solid red;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: salmon;
+  color: white;
+  font-size: 15px;
+  font-family: 'Raleway';
+}
+
+#notification1{
+  border: 1px solid red;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: salmon;
+  color: white;
+  font-size: 15px;
+  font-family: 'Raleway';
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+.coins{
+  height: 60px;
+  width: auto;
+  float: none;
+  margin-top: 10px;
+
+
+}
+
+#coins{
+  height: 50px;
+  width: auto;
+  float: none;
+  margin-top: 5px;
+
+
+}
+
+.navbar-toggler{
+  background-color: #FFffff;
+  border: none;
+  border-radius: 20px;
+  height: 80px;
+  outline: none;
+
+}
+
+.navbar-toggler:focus{
+  outline: none;
+}
+
+#navbarNav{
+  background-color: #b3ccff;
+  opacity: 0.7;
+  padding: 30px;
+
+}
+
+.nav-link{
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight:bolder;
+  color: black;
+}
+
+
+
+
+
+#profileItems{
+  margin-top: 70px;
+  height: 300px;
+  background-color: #EBF2FB;
+
+
+}
+
+#call{
+  margin-top: 150px;
+  margin-left: 40px;
+  height: 50px;
+
+}
+
+#displayPicture{
+  margin-top: 50px;
+  height: 150px;
+}
+
+#mood{
+  margin-top: 155px;
+  margin-right: auto;
+  height: 50px;
+}
+
+.userName{
+  font-family: 'Raleway';
+  font-size: 40px;
+  margin: 5px;
+  padding: 1px;
+  color: #750B1E;
+  margin-top: 20px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+#donutchart{
+
+  margin-left: 6.5px;
+  }
+
+#chart_div{
+  margin-top: 20px;
+  margin-left: 6.5px;
+  margin-bottom: 5px;
+
+}
+
+#dummychart{
+  margin-left: 45px;
+}
+
+
+#moodChart{
+  background-color: #b3ccff;
+  color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Raleway';
+  margin-bottom: 50px;
+  text-align: center;
+
+  border: 2px solid #b3ccff;
+
+}
+
+
+
+#moodChartintro{
+  margin-top: 140px;
+  color: #0055ff;
+  font-size: 25px;
+  font-family: 'Raleway';
+  margin-bottom: 20px;
+}
+
+
+h5{
+  font-family: 'Source Sans Pro';
+  font-size: 25px;
+  font-weight: bold;
+  color: #0055ff;
+}
+
+#letsDoIt{
+  background-color: #b3ccff;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  border:none;
+}
+
+#viewMycharts{
+  background-color: #FFE9E3;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color:#750B1E;
+  border: none;
+}
+
+#profileIcon{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+#profileIcon1{
+  margin-right: 100px;
+  height: 30px;
+  width: 30px;
+}
+
+.footer{
+  border: 2px solid white;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.modal-content{
+  background:#EBF2FB;
+  color:black;
+}
+
+#exampleModalLongTitle{
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: #0055ff;
+
+}
+
+.modal-body{
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: black;
+}
+
+
+h2{
+  margin-left: 60px;
+ font-weight: lighter;
+ font-size: 25px;
+  margin-top: 130px;
+  color: #0055ff;
+  font-family: 'Raleway';
+  padding-right: : 30px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card41, #card42{
+  margin-left: 65px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: white;
+  border: 3px solid #a6f5c8;
+}
+
+.card-title{
+  font-family: 'Raleway';
+  font-weight: lighter;
+  color: black;
+  font-size: 18px;
+}
+
+ #demo, #value, #value1, #value2, #value3{
+   font-size: 20px;
+   font-family: 'Raleway';
+   margin-bottom: 0px;
+   margin-top: 10px;
+ }
+
+#smile, #smile1, #confused,#sad, #like, #dislike{
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+#dislike{
+  margin-left: 70px;
+}
+
+#like{
+  height: 60px;
+  width: 60px;
+}
+#like,#dislike{
+  margin-top: 5px;
+}
+
+
+<!-- slider information -->
+
+.slidecontainer{
+    width: 100%; /* Width of the outside container */
+
+}
+/* The slider itself */
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 5px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+     /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+
+}
+
+/* Mouse-over effects */
+.slider:hover{
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #a6f5c8; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.slider::-moz-range-thumb{
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#demo, #demo1{
+  margin:0;
+  padding: 0;
+}
+
+#chartbutton1{
+  background-color: #FFE9E3;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color:#750B1E;
+  border: 1px solid #FFE9E3;
+}
+
+#chartbutton2{
+  background-color: #a6f5c8;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  border: 1px solid #a6f5c8;
+}
+
+#doneChart, #doneChart1, #doneChart2{
+  background-color:  #b3ccff;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color:black;
+  border: 1px solid #b3ccff;
+}
+
+
+#badge{
+  height: 80px;
+  width: auto;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#badgeContent{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Raleway'
+}
+
+
+#shareChart{
+  background-color: #4A90E2;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'Amaranth';
+
+  text-align: center;
+}
+
+#ad1, #ad2{
+  margin-left: 65px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 3px solid #a6f5c8;
+}
+
+#shareIntro{
+  font-family: 'Raleway';
+  font-size: 23px;
+  margin-top: 130px;
+  padding-right: 50px;
+  color: #750B1E;
+}
+
+.card-title-Kelly{
+  font-size: 20px;
+  font-family: 'Raleway';
+  color: black;
+  font-weight: normal;
+}
+
+#kellyInfo, #kellyInfo2{
+  font-family: 'Raleway';
+  color: grey;
+  font-size: 18px;
+  text-align: left;
+}
+
+#kelly, #amanda{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+#request, #request1{
+  border: 2px solid pink;
+  border-radius: 5px;
+  background-color: #FFE9E3;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: 'Raleway';
+  text-align: center;
+  color: black;
+  height: 50px;
+  padding: 5px;
+}
+
+
+#logo{
+  text-align: center;
+  margin-top: 100px;
+  height: 200px;
+}
+
+
+#logo1{
+  text-align: center;
+
+  height: 50px;
+}
+
+#logo2{
+  text-align: center;
+
+  height: 80px;
+}
+
+#logInText{
+  font-size: 50px;
+  font-family: 'Raleway';
+  font-weight: normal;
+  color:#002b80;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+#logInText2{
+
+  font-family: 'Raleway';
+}
+
+#logIn{
+  background-color: #b3ccff;
+  border: 1px solid #b3ccff;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  width: 250px;
+  border-radius: 20px;
+}
+
+
+
+#clickMe{
+  border: 2px color: salmon;
+  border-radius: 10px;
+  background: salmon;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 25px;
+  font-family: 'Raleway';
+}
+
+.problem{
+  height: 100px;
+  margin-top:10px;
+  border: 2px solid #a6f5c8;
+  border-radius: 20px;
+}
+
+.password, .campusCard, .name{
+  margin-top: 25px;
+  font-family: 'Raleway';
+  color: black;
+  border: 2px solid #a6f5c8;
+  border-radius: 20px;
+}
+
+#campusCard{
+  font-size: 20px;
+  font-family: 'Raleway';
+  color: black;
+
+}
+
+.textBox{
+
+  border: 2px solid #a6f5c8;
+  width: 150px;
+  border-radius: 20px;
+
+}
+
+
+
+.depression, .anxiety, .stress{
+  font-size: 14px;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   background-image: url(...);   /* add custom arrow */
+   font-size: 18px;
+   margin-top: 10px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+/* Calendar */
+
+ul {list-style-type: none;}
+body {font-family: 'Amaranth';}
+
+/* Month header */
+.month {
+  margin-top: 100px;
+    padding: 70px 25px;
+    width: 100%;
+    background: #a6f5c8;
+    text-align: center;
+
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway';
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #FFE9E3;
+    color: #750B1E;
+}
+
+#reminders{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+
+/* Calendar ends */
+
+
+#guestChat{
+
+  margin-top: 20px;
+}
+
+
+#alertMessage{
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+#keyboard{
+  width: auto;
+}
+
+#userLogIn{
+  border-radius: 10px;
+  font-size: 23px;
+  background: #b3ccff;
+  font-family: 'Raleway';
+  color:black;
+  margin-top: 30px;
+}
+
+#logInEmily{
+  color: black;
+  font-family: 'Raleway';
+  font-size: 23px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+#password{
+
+  font-family: 'Raleway';
+
+  font-size: 20px;
+
+
+}
+
+#passwordInput{
+  border: 2px solid #a6f5c8;
+  width: 100px;
+  margin-left: 50px;
+  border-radius: 20px;
+  font-family: 'Raleway';
+  width: 150px;
+
+}
+
+
+#qrCode{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+#badgePoints{
+  height: 100px;
+  width: auto;
+}
+
+
+#formSignup{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Raleway';
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#formSignup1{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Raleway';
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#signUpIntro{
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #0052cc;;
+  font-size: 23px;
+  font-family: 'Raleway';
+  font-weight: normal;
+}
+
+#messageText{
+  height: 200px;
+}
+
+#feedback{
+
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Raleway';
+  color: #0055ff;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+#ad1{
+  margin-top: 20px;
+}
+
+#feedbackCard{
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 65px;
+  border: 3px solid #a6f5c8;
+  border-radius: 20px;
+
+}
+
+#feedback1{
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 23px;
+  color:#0055ff;
+  font-weight: normal;
+}
+
+#star{
+  width: 30px;
+  margin-left: 15px;
+  margin-bottom: none;
+}
+
+#message, #message1, #message2{
+  float: none;
+  background: #b3ccff;
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: black;
+  border: 1px solid #b3ccff;
+}
+
+#exampleModalLabel{
+  font-family: 'Raleway';
+  color: #0055ff;;
+
+}
+
+#close{
+  font-size: 18px;
+  padding: 5px;
+  font-family: 'Raleway';
+  background-color: #b3ccff;
+  color: black;
+  border: none;
+}
+
+
+.may{
+  color: black;
+}
+
+
+#pointsEarned{
+  background-color: #b3ccff;
+  width: 90px;
+  height: 40px;
+  margin-left: 90px;
+  color: black;
+  font-size: 30px;
+  padding: 2px;
+  text-align: center;
+}
+
+#scanCode{
+  text-align: center;
+}
+
+#rate, #messageFeedback, #messageFeedback1{
+  background-color: #b3ccff;
+  border:none;
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: black;
+}
+
+#feedback2{
+  font-size: 18px;
+  color: black;
+  font-family: 'Raleway';
+}
+
+#closeMessage{
+  background-color:#FFE9E3;
+  border: 1px solid #FFE9E3;
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: black;
+  border: 2px solid pink;
+}
+
+#displayPicture2{
+margin-top: 140px;
+margin-left: 140px;
+height: 120px
+
+}
+
+#invite{
+margin-top: 30px;
+text-align: center;
+margin-right: 50px;
+}
+
+#login2,#submit{
+  background-color: #a6f5c8;
+  border:none;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  margin-bottom: none;
+  margin:none;
+
+}
+
+
+#login3{
+
+  background-color: #b3ccff;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  border:none;
+  width: 20px;
+}
+
+
+
+
+
+#loginCall{
+background-color: #FFE9E3;
+  border:none;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  width: 200px;
+}
+
+
+#alertMessage{
+  font-family: 'Raleway';
+  color: black;
+  font-weight: lighter;
+  background: #a6f5c8;
+}
+
+
+#campusInput{
+  margin-left: 10px;
+}
+
+#myMood{
+  font-size: 20px;
+  font-family: 'Raleway';
+  color:#750B1E;
+  font-weight: lighter;
+}
+
+#requestApt{
+  background: #a6f5c8;
+  font-size: 20px;
+  color: black;
+  font-family: 'Raleway';
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -5px;
+  height: 50px;
+}
+
+.request-apt{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight:normal;
+  margin-top: -10;
+  color: #750B1E;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 175px;
+  font-size: 30px;
+}
