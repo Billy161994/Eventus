@@ -65,3 +65,45 @@ function initMap() {
     icon: image
   });
 }
+
+
+
+
+
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+
+function drawChart() {
+  var data = new
+google.visualization.DataTable();
+  data.addColumn('string', 'Skill');
+  data.addColumn('number', 'Points');
+  data.addRows([
+    ['HTML', 922],
+    ['CSS', 2679],
+    ['JavaScript', 12899],
+    ['PHP', 1450],
+    ['Development Tools', 1459],
+    ['Java', 275],
+    ['Digital Literacy', 40],
+    ['Databases', 1786],
+    ['Security', 540],
+    ['Quality Assurance', 207]
+]);
+
+
+// Set chart options
+var options = {
+  'title':'Tony\'s Earned Treehouse Study Units',
+  'width':550,
+  'height':400
+};
+
+
+// Display the chart
+var chart = new
+google.visualization.PieChart(document.getElementById('pieChart'));
+chart.draw(data, options);
+} // Don’t forget to close your function

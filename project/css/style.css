@@ -81,6 +81,15 @@ h6{
 }
 
 
+
+#submitbutton1{
+  background-color: #b3ccff;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  border:none;
+}
+
 .loader {
   border: 8px solid #0055ff;
   border-radius: 50%;
@@ -134,25 +143,7 @@ h6{
 }
 
 
-#notification{
-  border: 1px solid red;
-  border-radius: 20px;
-  margin-left: 10px;
-  background-color: salmon;
-  color: white;
-  font-size: 15px;
-  font-family: 'Raleway';
-}
 
-#notification1{
-  border: 1px solid red;
-  border-radius: 20px;
-  margin-left: 10px;
-  background-color: salmon;
-  color: white;
-  font-size: 15px;
-  font-family: 'Raleway';
-}
 
 .footer {
    position: fixed;
@@ -174,14 +165,7 @@ h6{
 
 }
 
-#coins{
-  height: 50px;
-  width: auto;
-  float: none;
-  margin-top: 5px;
 
-
-}
 
 .navbar-toggler{
   background-color: #FFffff;
@@ -352,6 +336,13 @@ h5{
 
 }
 
+#exampleModalLongTitle1{
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: #0055ff;
+
+}
+
 .modal-body{
   font-family: 'Raleway';
   font-size: 18px;
@@ -366,7 +357,7 @@ h2{
   margin-top: 130px;
   color: #0055ff;
   font-family: 'Raleway';
-  padding-right: : 30px;
+  padding-right: 30px;
 }
 
 #card1, #card2, #card3, #card4, #card5, #card41, #card42{
@@ -397,6 +388,15 @@ h2{
   margin-right: 20px;
 }
 
+
+#smile1{
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 70px;
+}
+
+
 #dislike{
   margin-left: 70px;
 }
@@ -413,9 +413,7 @@ h2{
 <!-- slider information -->
 
 .slidecontainer{
-    width: 100%; /* Width of the outside container */
-
-}
+    width: 100%; /* Width of the outside container */}
 /* The slider itself */
 .slider{
     -webkit-appearance: none;  /* Override default CSS styles */
@@ -578,6 +576,27 @@ h2{
   height: 80px;
 }
 
+
+
+#logo3{
+  text-align: center;
+
+  height: 50px;
+}
+
+
+
+#logo5{
+  align-items: center;
+
+  height: 50px;
+}
+
+#logo6,#logo7, #logo8, #logo9{
+  align-items: center;
+  height: 50px;
+}
+
 #logInText{
   font-size: 50px;
   font-family: 'Raleway';
@@ -605,7 +624,18 @@ h2{
 
 
 #clickMe{
-  border: 2px color: salmon;
+  border: 2px; color: salmon;
+  border-radius: 10px;
+  background: salmon;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 25px;
+  font-family: 'Raleway';
+}
+
+#clickMe1{
+  border: 2px; color: salmon;
   border-radius: 10px;
   background: salmon;
   color: black;
@@ -634,9 +664,17 @@ h2{
   font-size: 20px;
   font-family: 'Raleway';
   color: black;
+  padding-right: 10px;
 
 }
 
+#campusCard1{
+  font-size: 20px;
+  font-family: 'Raleway';
+  color: black;
+  padding-right: 10px;
+
+}
 .textBox{
 
   border: 2px solid #a6f5c8;
@@ -794,12 +832,12 @@ body {font-family: 'Amaranth';}
   font-family: 'Raleway';
 
   font-size: 20px;
-
+padding-right: 10px;
 
 }
 
 #passwordInput{
-  border: 2px solid #a6f5c8;
+  border: 2px solid #0055ff;
   width: 100px;
   margin-left: 50px;
   border-radius: 20px;
@@ -888,7 +926,7 @@ body {font-family: 'Amaranth';}
 #star{
   width: 30px;
   margin-left: 15px;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 #message, #message1, #message2{
@@ -978,9 +1016,7 @@ margin-right: 50px;
   font-family: 'Raleway';
   font-size: 20px;
   color: black;
-  margin-bottom: none;
-  margin:none;
-
+  margin-bottom: 0;
 }
 
 
@@ -1018,6 +1054,13 @@ background-color: #FFE9E3;
 
 #campusInput{
   margin-left: 10px;
+  border: 2px solid #0055ff;
+}
+
+
+#campusInput1{
+  margin-left: 10px;
+  border: 2px solid #0055ff;
 }
 
 #myMood{
@@ -1027,25 +1070,9 @@ background-color: #FFE9E3;
   font-weight: lighter;
 }
 
-#requestApt{
-  background: #a6f5c8;
-  font-size: 20px;
-  color: black;
-  font-family: 'Raleway';
-  border-radius: 10px;
-  text-align: center;
-  margin-top: -5px;
-  height: 50px;
-}
 
-.request-apt{
-  text-align: left;
-  font-size: 20px;
-  font-family: 'Raleway';
-  font-weight:normal;
-  margin-top: -10;
-  color: #750B1E;
-}
+
+
 
 
 .flex-container {
