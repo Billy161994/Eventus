@@ -20,7 +20,7 @@ h6{
   font-family: 'Raleway';
 }
 
-#guest1{
+#guest1, #guest7{
   text-align: center;
   color: grey;
   font-family: 'Raleway';
@@ -240,21 +240,9 @@ p{
 
 }
 
-#donutchart{
 
-  margin-left: 6.5px;
-  }
 
-#chart_div{
-  margin-top: 20px;
-  margin-left: 6.5px;
-  margin-bottom: 5px;
 
-}
-
-#dummychart{
-  margin-left: 45px;
-}
 
 
 #moodChart{
@@ -360,13 +348,29 @@ h2{
   padding-right: 30px;
 }
 
-#card1, #card2, #card3, #card4, #card5, #card41, #card42{
+#card1, #card2, #card3, #card4, #card5, #card41, #card42, #card6, #card7, #card8, #card9{
   margin-left: 65px;
   margin-bottom: 20px;
   border-radius: 30px;
   background-color: white;
   border: 3px solid #a6f5c8;
 }
+
+
+#card10, #card11, #card12, #card13, #card14{
+  margin-left: 65px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: white;
+  border: 3px solid #a6f5c8;
+}
+
+
+
+
+
+
+
 
 .card-title{
   font-family: 'Raleway';
@@ -382,7 +386,7 @@ h2{
    margin-top: 10px;
  }
 
-#smile, #smile1, #confused,#sad, #like, #dislike{
+#smile, #smile1, #smile10, #smile11, #confused,#sad, #like, #dislike{
   height: 60px;
   width: 60px;
   margin-right: 20px;
@@ -410,10 +414,10 @@ h2{
 }
 
 
-<!-- slider information -->
 
-.slidecontainer{
-    width: 100%; /* Width of the outside container */}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
 /* The slider itself */
 .slider{
     -webkit-appearance: none;  /* Override default CSS styles */
@@ -523,7 +527,7 @@ h2{
   color: #750B1E;
 }
 
-.card-title-Kelly{
+.card-title-Kelly, .card-title-Kelly1{
   font-size: 20px;
   font-family: 'Raleway';
   color: black;
@@ -592,10 +596,26 @@ h2{
   height: 50px;
 }
 
-#logo6,#logo7, #logo8, #logo9{
+#logo6,#logo7, #logo8, #logo9, #logo10, #logo11, #logo12, #logo13, #logo14, #logo15, #logo16, #logo17, #logo18, #logo19, #logo20, #logo21, #logo22, #logo23, #logo24, #logo25, #logo26{
   align-items: center;
   height: 50px;
 }
+
+
+#logo27,#logo28, #logo29, #logo30, #logo31, #logo32, #logo33, #logo34, #logo35, #logo36, #logo37, #logo38, #logo39, #logo40, #logo41, #logo42, #logo43, #logo44{
+  align-items: center;
+  height: 50px;
+}
+
+
+#logo44,#logo45, #logo46, #logo47, #logo48, #logo49, #logo50, #logo51, #logo52{
+  align-items: center;
+  height: 80px;
+}
+
+
+
+
 
 #logInText{
   font-size: 50px;
@@ -623,7 +643,7 @@ h2{
 
 
 
-#clickMe{
+#clickMe, #clickMeone{
   border: 2px; color: salmon;
   border-radius: 10px;
   background: salmon;
@@ -633,6 +653,11 @@ h2{
   margin-top: 25px;
   font-family: 'Raleway';
 }
+
+
+
+
+
 
 #clickMe1{
   border: 2px; color: salmon;
@@ -782,14 +807,11 @@ body {font-family: 'Amaranth';}
     color: #750B1E;
 }
 
-#reminders{
+#reminders, #reminder5, #reminders6x{
   margin-top: 20px;
   margin-bottom: 20px;
 
 }
-
-
-
 /* Calendar ends */
 
 
@@ -847,11 +869,7 @@ padding-right: 10px;
 }
 
 
-#qrCode{
-  width: 150px;
-  height: 150px;
-  margin-left: 50px;
-}
+
 
 #badgePoints{
   height: 100px;
@@ -923,11 +941,7 @@ padding-right: 10px;
   font-weight: normal;
 }
 
-#star{
-  width: 30px;
-  margin-left: 15px;
-  margin-bottom: 0;
-}
+
 
 #message, #message1, #message2{
   float: none;
@@ -970,9 +984,7 @@ padding-right: 10px;
   text-align: center;
 }
 
-#scanCode{
-  text-align: center;
-}
+
 
 #rate, #messageFeedback, #messageFeedback1{
   background-color: #b3ccff;
@@ -1063,12 +1075,7 @@ background-color: #FFE9E3;
   border: 2px solid #0055ff;
 }
 
-#myMood{
-  font-size: 20px;
-  font-family: 'Raleway';
-  color:#750B1E;
-  font-weight: lighter;
-}
+
 
 
 
