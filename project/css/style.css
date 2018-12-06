@@ -847,6 +847,12 @@ body {font-family: 'Amaranth';}
   font-size: 23px;
   font-weight: normal;
   margin-top: 50px;
+  border-radius: 10px;
+  font-size: 23px;
+  background: #b3ccff;
+  font-family: 'Raleway';
+  color:black;
+  margin-top: 30px;
 }
 
 #password{
@@ -1095,4 +1101,35 @@ background-color: #FFE9E3;
   text-align: center;
   line-height: 175px;
   font-size: 30px;
+}
+
+
+
+
+
+.heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+  padding-top: 200px;
+}
+.heart:hover {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
 }
